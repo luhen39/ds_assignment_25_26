@@ -1,0 +1,158 @@
+out. 30, 2025 12:35:23 DA MANHÃ ds.assignment.tring.Peer loadRingConfiguration
+INFO: Loading ring configuration from peers.config
+out. 30, 2025 12:35:23 DA MANHÃ ds.assignment.tring.Peer loadRingConfiguration
+INFO: Loaded peer 0: localhost:8081
+out. 30, 2025 12:35:23 DA MANHÃ ds.assignment.tring.Peer loadRingConfiguration
+INFO: Loaded peer 1: localhost:8082
+out. 30, 2025 12:35:23 DA MANHÃ ds.assignment.tring.Peer loadRingConfiguration
+INFO: Loaded peer 2: localhost:8083
+out. 30, 2025 12:35:23 DA MANHÃ ds.assignment.tring.Peer loadRingConfiguration
+INFO: Loaded peer 3: localhost:8084
+out. 30, 2025 12:35:23 DA MANHÃ ds.assignment.tring.Peer loadRingConfiguration
+INFO: Loaded peer 4: localhost:8085
+out. 30, 2025 12:35:23 DA MANHÃ ds.assignment.tring.Peer loadRingConfiguration
+INFO: Ring configuration loaded: 5 peers
+out. 30, 2025 12:35:23 DA MANHÃ ds.assignment.tring.Peer$TokenServer run
+INFO: Token server started on localhost:8081
+out. 30, 2025 12:35:24 DA MANHÃ ds.assignment.tring.Peer lambda$startRequestGenerator$2
+INFO: Starting request generator (Poisson λ=4 per minute)
+out. 30, 2025 12:35:24 DA MANHÃ ds.assignment.tring.Peer main
+INFO: Monitoring activated immediately at startup
+out. 30, 2025 12:35:24 DA MANHÃ ds.assignment.tring.Peer lambda$startTokenMonitor$0
+INFO: Token monitor ready, activates after first token
+out. 30, 2025 12:35:47 DA MANHÃ ds.assignment.tring.Peer lambda$startRequestGenerator$2
+INFO: Generated request: add:13.951221929681513:57.8180799989091 (queue size: 1)
+out. 30, 2025 12:35:51 DA MANHÃ ds.assignment.tring.Peer lambda$startRequestGenerator$2
+INFO: Generated request: mul:4.169102762053356:61.76897342613954 (queue size: 2)
+out. 30, 2025 12:36:07 DA MANHÃ ds.assignment.tring.Peer lambda$startRequestGenerator$2
+INFO: Generated request: sub:87.44255408827321:20.860833049168694 (queue size: 3)
+out. 30, 2025 12:36:16 DA MANHÃ ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:INITIAL'
+out. 30, 2025 12:36:16 DA MANHÃ ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 30, 2025 12:36:16 DA MANHÃ ds.assignment.tring.Peer processAllRequests
+INFO: Processing 3 requests
+out. 30, 2025 12:36:16 DA MANHÃ ds.assignment.tring.Peer processAllRequests
+INFO: Sending to server: add:13.951221929681513:57.8180799989091
+out. 30, 2025 12:36:16 DA MANHÃ ds.assignment.tring.Peer processAllRequests
+INFO: Received from server: 71.76930192859061
+out. 30, 2025 12:36:17 DA MANHÃ ds.assignment.tring.Peer processAllRequests
+INFO: Sending to server: mul:4.169102762053356:61.76897342613954
+out. 30, 2025 12:36:17 DA MANHÃ ds.assignment.tring.Peer processAllRequests
+INFO: Received from server: 257.5211977201187
+out. 30, 2025 12:36:17 DA MANHÃ ds.assignment.tring.Peer processAllRequests
+INFO: Sending to server: sub:87.44255408827321:20.860833049168694
+out. 30, 2025 12:36:17 DA MANHÃ ds.assignment.tring.Peer processAllRequests
+INFO: Received from server: 66.58172103910452
+out. 30, 2025 12:36:18 DA MANHÃ ds.assignment.tring.Peer processAllRequests
+INFO: Finished processing all requests
+out. 30, 2025 12:36:18 DA MANHÃ ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 1
+out. 30, 2025 12:36:18 DA MANHÃ ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8082
+out. 30, 2025 12:36:18 DA MANHÃ ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8082
+out. 30, 2025 12:36:18 DA MANHÃ ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 30, 2025 12:36:19 DA MANHÃ ds.assignment.tring.Peer lambda$startRequestGenerator$2
+INFO: Generated request: div:30.08004396334203:28.50152726793719 (queue size: 1)
+out. 30, 2025 12:36:19 DA MANHÃ ds.assignment.tring.Peer lambda$startRequestGenerator$2
+INFO: Generated request: div:78.8777148146344:64.42922501238428 (queue size: 2)
+out. 30, 2025 12:36:26 DA MANHÃ ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:1:4'
+out. 30, 2025 12:36:26 DA MANHÃ ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 30, 2025 12:36:26 DA MANHÃ ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 1 (sent by peer 4)
+out. 30, 2025 12:36:26 DA MANHÃ ds.assignment.tring.Peer processAllRequests
+INFO: Processing 2 requests
+out. 30, 2025 12:36:26 DA MANHÃ ds.assignment.tring.Peer processAllRequests
+INFO: Sending to server: div:30.08004396334203:28.50152726793719
+out. 30, 2025 12:36:26 DA MANHÃ ds.assignment.tring.Peer processAllRequests
+INFO: Received from server: 1.0553835828012135
+out. 30, 2025 12:36:26 DA MANHÃ ds.assignment.tring.Peer processAllRequests
+INFO: Sending to server: div:78.8777148146344:64.42922501238428
+out. 30, 2025 12:36:26 DA MANHÃ ds.assignment.tring.Peer processAllRequests
+INFO: Received from server: 1.2242536643809219
+out. 30, 2025 12:36:27 DA MANHÃ ds.assignment.tring.Peer processAllRequests
+INFO: Finished processing all requests
+out. 30, 2025 12:36:27 DA MANHÃ ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 2
+out. 30, 2025 12:36:27 DA MANHÃ ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8082
+out. 30, 2025 12:36:27 DA MANHÃ ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8082
+out. 30, 2025 12:36:27 DA MANHÃ ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 30, 2025 12:36:29 DA MANHÃ ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:2:4'
+out. 30, 2025 12:36:29 DA MANHÃ ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 30, 2025 12:36:29 DA MANHÃ ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 2 (sent by peer 4)
+out. 30, 2025 12:36:29 DA MANHÃ ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 30, 2025 12:36:30 DA MANHÃ ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 3
+out. 30, 2025 12:36:30 DA MANHÃ ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8082
+out. 30, 2025 12:36:30 DA MANHÃ ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8082
+out. 30, 2025 12:36:30 DA MANHÃ ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 30, 2025 12:36:32 DA MANHÃ ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:3:4'
+out. 30, 2025 12:36:32 DA MANHÃ ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 30, 2025 12:36:32 DA MANHÃ ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 3 (sent by peer 4)
+out. 30, 2025 12:36:32 DA MANHÃ ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 30, 2025 12:36:32 DA MANHÃ ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 4
+out. 30, 2025 12:36:32 DA MANHÃ ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8082
+out. 30, 2025 12:36:32 DA MANHÃ ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8082
+out. 30, 2025 12:36:32 DA MANHÃ ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 30, 2025 12:36:34 DA MANHÃ ds.assignment.tring.Peer lambda$startRequestGenerator$2
+INFO: Generated request: add:28.827024846465545:81.14059813017458 (queue size: 1)
+out. 30, 2025 12:36:34 DA MANHÃ ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:4:4'
+out. 30, 2025 12:36:34 DA MANHÃ ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 30, 2025 12:36:34 DA MANHÃ ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 4 (sent by peer 4)
+out. 30, 2025 12:36:34 DA MANHÃ ds.assignment.tring.Peer processAllRequests
+INFO: Processing 1 requests
+out. 30, 2025 12:36:34 DA MANHÃ ds.assignment.tring.Peer processAllRequests
+INFO: Sending to server: add:28.827024846465545:81.14059813017458
+out. 30, 2025 12:36:34 DA MANHÃ ds.assignment.tring.Peer processAllRequests
+INFO: Received from server: 109.96762297664013
+out. 30, 2025 12:36:35 DA MANHÃ ds.assignment.tring.Peer processAllRequests
+INFO: Finished processing all requests
+out. 30, 2025 12:36:35 DA MANHÃ ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 5
+out. 30, 2025 12:36:35 DA MANHÃ ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8082
+out. 30, 2025 12:36:35 DA MANHÃ ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8082
+out. 30, 2025 12:36:35 DA MANHÃ ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 30, 2025 12:36:37 DA MANHÃ ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:5:4'
+out. 30, 2025 12:36:37 DA MANHÃ ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 30, 2025 12:36:37 DA MANHÃ ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 5 (sent by peer 4)
+out. 30, 2025 12:36:37 DA MANHÃ ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 30, 2025 12:36:37 DA MANHÃ ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 6
+out. 30, 2025 12:36:37 DA MANHÃ ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8082
+out. 30, 2025 12:36:37 DA MANHÃ ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8082
+out. 30, 2025 12:36:37 DA MANHÃ ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
