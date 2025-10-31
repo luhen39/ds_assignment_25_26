@@ -1,0 +1,1106 @@
+out. 31, 2025 5:55:11 DA TARDE ds.assignment.tring.Peer loadRingConfiguration
+INFO: Loading ring configuration from peers.config
+out. 31, 2025 5:55:11 DA TARDE ds.assignment.tring.Peer loadRingConfiguration
+INFO: Loaded peer 0: localhost:8081
+out. 31, 2025 5:55:11 DA TARDE ds.assignment.tring.Peer loadRingConfiguration
+INFO: Loaded peer 1: localhost:8082
+out. 31, 2025 5:55:11 DA TARDE ds.assignment.tring.Peer loadRingConfiguration
+INFO: Loaded peer 2: localhost:8083
+out. 31, 2025 5:55:11 DA TARDE ds.assignment.tring.Peer loadRingConfiguration
+INFO: Loaded peer 3: localhost:8084
+out. 31, 2025 5:55:11 DA TARDE ds.assignment.tring.Peer loadRingConfiguration
+INFO: Loaded peer 4: localhost:8085
+out. 31, 2025 5:55:11 DA TARDE ds.assignment.tring.Peer loadRingConfiguration
+INFO: Ring configuration loaded: 5 peers
+out. 31, 2025 5:55:11 DA TARDE ds.assignment.tring.Peer$TokenServer run
+INFO: Token server started on localhost:8081
+out. 31, 2025 5:55:12 DA TARDE ds.assignment.tring.Peer lambda$startRequestGenerator$3
+INFO: Starting request generator (Poisson λ=4 per minute)
+out. 31, 2025 5:55:12 DA TARDE ds.assignment.tring.Peer main
+INFO: Monitoring activated immediately at startup
+out. 31, 2025 5:55:12 DA TARDE ds.assignment.tring.Peer lambda$startTokenMonitor$0
+INFO: Token monitor ready, activates after first token
+out. 31, 2025 5:55:20 DA TARDE ds.assignment.tring.Peer lambda$startRequestGenerator$3
+INFO: Generated request: add:20.201584536717554:63.813797031684494 (queue size: 1)
+out. 31, 2025 5:55:29 DA TARDE ds.assignment.tring.Peer lambda$startRequestGenerator$3
+INFO: Generated request: sub:51.50494258326974:38.78695735183327 (queue size: 2)
+out. 31, 2025 5:55:41 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:INITIAL'
+out. 31, 2025 5:55:41 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:55:41 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Processing 2 requests
+out. 31, 2025 5:55:41 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Sending to server: add:20.201584536717554:63.813797031684494
+out. 31, 2025 5:55:41 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Received from server: 84.01538156840205
+out. 31, 2025 5:55:41 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Sending to server: sub:51.50494258326974:38.78695735183327
+out. 31, 2025 5:55:41 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Received from server: 12.717985231436465
+out. 31, 2025 5:55:42 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Finished processing all requests
+out. 31, 2025 5:55:42 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 1 (peer 0 is lowest alive)
+out. 31, 2025 5:55:42 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8082
+out. 31, 2025 5:55:42 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8082
+out. 31, 2025 5:55:42 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:55:45 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:1:4'
+out. 31, 2025 5:55:45 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:55:45 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 1 (sent by peer 4)
+out. 31, 2025 5:55:45 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 5:55:45 DA TARDE ds.assignment.tring.Peer lambda$startRequestGenerator$3
+INFO: Generated request: sub:61.99888789750471:22.839459520668658 (queue size: 1)
+out. 31, 2025 5:55:46 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 2 (peer 0 is lowest alive)
+out. 31, 2025 5:55:46 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8082
+out. 31, 2025 5:55:46 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8082
+out. 31, 2025 5:55:46 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:55:48 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:2:4'
+out. 31, 2025 5:55:48 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:55:48 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 2 (sent by peer 4)
+out. 31, 2025 5:55:48 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Processing 1 requests
+out. 31, 2025 5:55:48 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Sending to server: sub:61.99888789750471:22.839459520668658
+out. 31, 2025 5:55:48 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Received from server: 39.15942837683605
+out. 31, 2025 5:55:48 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Finished processing all requests
+out. 31, 2025 5:55:48 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 3 (peer 0 is lowest alive)
+out. 31, 2025 5:55:48 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8082
+out. 31, 2025 5:55:48 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8082
+out. 31, 2025 5:55:48 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:55:50 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:3:4'
+out. 31, 2025 5:55:50 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:55:50 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 3 (sent by peer 4)
+out. 31, 2025 5:55:50 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 5:55:51 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 4 (peer 0 is lowest alive)
+out. 31, 2025 5:55:51 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8082
+out. 31, 2025 5:55:51 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8082
+out. 31, 2025 5:55:51 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:55:51 DA TARDE ds.assignment.tring.Peer lambda$startRequestGenerator$3
+INFO: Generated request: add:50.09942095218977:79.15351974165058 (queue size: 1)
+out. 31, 2025 5:55:53 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:4:4'
+out. 31, 2025 5:55:53 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:55:53 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 4 (sent by peer 4)
+out. 31, 2025 5:55:53 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Processing 1 requests
+out. 31, 2025 5:55:53 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Sending to server: add:50.09942095218977:79.15351974165058
+out. 31, 2025 5:55:53 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Received from server: 129.25294069384034
+out. 31, 2025 5:55:53 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Finished processing all requests
+out. 31, 2025 5:55:53 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 5 (peer 0 is lowest alive)
+out. 31, 2025 5:55:53 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8082
+out. 31, 2025 5:55:53 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8082
+out. 31, 2025 5:55:53 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:55:56 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:5:4'
+out. 31, 2025 5:55:56 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:55:56 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 5 (sent by peer 4)
+out. 31, 2025 5:55:56 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 5:55:56 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 6 (peer 0 is lowest alive)
+out. 31, 2025 5:55:56 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8082
+out. 31, 2025 5:55:56 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8082
+out. 31, 2025 5:55:56 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:55:58 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:6:4'
+out. 31, 2025 5:55:58 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:55:58 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 6 (sent by peer 4)
+out. 31, 2025 5:55:58 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 5:55:59 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 7 (peer 0 is lowest alive)
+out. 31, 2025 5:55:59 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8082
+out. 31, 2025 5:55:59 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8082
+out. 31, 2025 5:55:59 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:56:01 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:7:4'
+out. 31, 2025 5:56:01 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:56:01 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 7 (sent by peer 4)
+out. 31, 2025 5:56:01 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 5:56:01 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 8 (peer 0 is lowest alive)
+out. 31, 2025 5:56:01 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8082
+out. 31, 2025 5:56:01 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8082
+out. 31, 2025 5:56:01 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:56:03 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:8:4'
+out. 31, 2025 5:56:03 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:56:03 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 8 (sent by peer 4)
+out. 31, 2025 5:56:03 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 5:56:04 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 9 (peer 0 is lowest alive)
+out. 31, 2025 5:56:04 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8082
+out. 31, 2025 5:56:04 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8082
+out. 31, 2025 5:56:04 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:56:06 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:9:4'
+out. 31, 2025 5:56:06 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:56:06 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 9 (sent by peer 4)
+out. 31, 2025 5:56:06 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 5:56:06 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 10 (peer 0 is lowest alive)
+out. 31, 2025 5:56:06 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8082
+out. 31, 2025 5:56:06 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8082
+out. 31, 2025 5:56:06 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:56:08 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:10:4'
+out. 31, 2025 5:56:08 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:56:08 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 10 (sent by peer 4)
+out. 31, 2025 5:56:08 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 5:56:09 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 11 (peer 0 is lowest alive)
+out. 31, 2025 5:56:09 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8082
+out. 31, 2025 5:56:09 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8082
+out. 31, 2025 5:56:09 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:56:11 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:11:4'
+out. 31, 2025 5:56:11 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:56:11 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 11 (sent by peer 4)
+out. 31, 2025 5:56:11 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 5:56:11 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 12 (peer 0 is lowest alive)
+out. 31, 2025 5:56:11 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8082
+out. 31, 2025 5:56:11 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8082
+out. 31, 2025 5:56:11 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:56:12 DA TARDE ds.assignment.tring.Peer lambda$startRequestGenerator$3
+INFO: Generated request: sub:31.842200513120012:26.197324066909633 (queue size: 1)
+out. 31, 2025 5:56:14 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:12:4'
+out. 31, 2025 5:56:14 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:56:14 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 12 (sent by peer 4)
+out. 31, 2025 5:56:14 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Processing 1 requests
+out. 31, 2025 5:56:14 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Sending to server: sub:31.842200513120012:26.197324066909633
+out. 31, 2025 5:56:14 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Received from server: 5.644876446210379
+out. 31, 2025 5:56:14 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Finished processing all requests
+out. 31, 2025 5:56:14 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 13 (peer 0 is lowest alive)
+out. 31, 2025 5:56:14 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8082
+out. 31, 2025 5:56:14 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8082
+out. 31, 2025 5:56:14 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:56:17 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:13:4'
+out. 31, 2025 5:56:17 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:56:17 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 13 (sent by peer 4)
+out. 31, 2025 5:56:17 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 5:56:17 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 14 (peer 0 is lowest alive)
+out. 31, 2025 5:56:17 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8082
+out. 31, 2025 5:56:17 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8082
+out. 31, 2025 5:56:17 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:56:19 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:14:4'
+out. 31, 2025 5:56:19 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:56:19 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 14 (sent by peer 4)
+out. 31, 2025 5:56:19 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 5:56:20 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 15 (peer 0 is lowest alive)
+out. 31, 2025 5:56:20 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8082
+out. 31, 2025 5:56:20 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8082
+out. 31, 2025 5:56:20 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:56:23 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:15:4'
+out. 31, 2025 5:56:23 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:56:23 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 15 (sent by peer 4)
+out. 31, 2025 5:56:23 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 5:56:24 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 16 (peer 0 is lowest alive)
+out. 31, 2025 5:56:24 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8082
+out. 31, 2025 5:56:24 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8082
+out. 31, 2025 5:56:24 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:56:25 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:16:4'
+out. 31, 2025 5:56:25 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:56:25 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 16 (sent by peer 4)
+out. 31, 2025 5:56:25 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 5:56:26 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 17 (peer 0 is lowest alive)
+out. 31, 2025 5:56:26 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8082
+out. 31, 2025 5:56:26 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8082
+out. 31, 2025 5:56:26 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:56:27 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:17:4'
+out. 31, 2025 5:56:27 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:56:27 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 17 (sent by peer 4)
+out. 31, 2025 5:56:27 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 5:56:28 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 18 (peer 0 is lowest alive)
+out. 31, 2025 5:56:28 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8082
+out. 31, 2025 5:56:28 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8082
+out. 31, 2025 5:56:28 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:56:29 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:18:4'
+out. 31, 2025 5:56:29 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:56:29 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 18 (sent by peer 4)
+out. 31, 2025 5:56:29 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 5:56:30 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 19 (peer 0 is lowest alive)
+out. 31, 2025 5:56:30 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8082
+out. 31, 2025 5:56:30 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8082
+out. 31, 2025 5:56:30 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:56:31 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:19:4'
+out. 31, 2025 5:56:31 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:56:31 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 19 (sent by peer 4)
+out. 31, 2025 5:56:31 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 5:56:32 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 20 (peer 0 is lowest alive)
+out. 31, 2025 5:56:32 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8082
+out. 31, 2025 5:56:32 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8082
+out. 31, 2025 5:56:32 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:56:33 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:20:4'
+out. 31, 2025 5:56:33 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:56:33 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 20 (sent by peer 4)
+out. 31, 2025 5:56:33 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 5:56:34 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 21 (peer 0 is lowest alive)
+out. 31, 2025 5:56:34 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8082
+out. 31, 2025 5:56:34 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8082
+out. 31, 2025 5:56:34 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:56:35 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:21:4'
+out. 31, 2025 5:56:35 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:56:35 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 21 (sent by peer 4)
+out. 31, 2025 5:56:35 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 5:56:36 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 22 (peer 0 is lowest alive)
+out. 31, 2025 5:56:36 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8082
+out. 31, 2025 5:56:36 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+WARNING: Peer 1 connection attempt 1/3 failed: Ligação recusada
+out. 31, 2025 5:56:36 DA TARDE ds.assignment.tring.Peer lambda$main$5
+INFO: Updated next peer to peer 3 (localhost:8084)
+out. 31, 2025 5:56:38 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8084
+out. 31, 2025 5:56:38 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:56:39 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:22:4'
+out. 31, 2025 5:56:39 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:56:39 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 22 (sent by peer 4)
+out. 31, 2025 5:56:39 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 5:56:39 DA TARDE ds.assignment.tring.Peer lambda$startRequestGenerator$3
+INFO: Generated request: sub:59.598185220704224:27.37764923318402 (queue size: 1)
+out. 31, 2025 5:56:39 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 23 (peer 0 is lowest alive)
+out. 31, 2025 5:56:39 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8084
+out. 31, 2025 5:56:39 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8084
+out. 31, 2025 5:56:39 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:56:40 DA TARDE ds.assignment.tring.Peer lambda$startRequestGenerator$3
+INFO: Generated request: add:22.488788687107476:24.552483478642316 (queue size: 2)
+out. 31, 2025 5:56:40 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:23:4'
+out. 31, 2025 5:56:40 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:56:40 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 23 (sent by peer 4)
+out. 31, 2025 5:56:40 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Processing 2 requests
+out. 31, 2025 5:56:40 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Sending to server: sub:59.598185220704224:27.37764923318402
+out. 31, 2025 5:56:40 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Received from server: 32.22053598752021
+out. 31, 2025 5:56:41 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Sending to server: add:22.488788687107476:24.552483478642316
+out. 31, 2025 5:56:41 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Received from server: 47.04127216574979
+out. 31, 2025 5:56:41 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Finished processing all requests
+out. 31, 2025 5:56:41 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 24 (peer 0 is lowest alive)
+out. 31, 2025 5:56:41 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8084
+out. 31, 2025 5:56:41 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8084
+out. 31, 2025 5:56:41 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:56:42 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:24:4'
+out. 31, 2025 5:56:42 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:56:42 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 24 (sent by peer 4)
+out. 31, 2025 5:56:42 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 5:56:43 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 25 (peer 0 is lowest alive)
+out. 31, 2025 5:56:43 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8084
+out. 31, 2025 5:56:43 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8084
+out. 31, 2025 5:56:43 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:56:44 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:25:4'
+out. 31, 2025 5:56:44 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:56:44 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 25 (sent by peer 4)
+out. 31, 2025 5:56:44 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 5:56:44 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 26 (peer 0 is lowest alive)
+out. 31, 2025 5:56:44 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8084
+out. 31, 2025 5:56:44 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8084
+out. 31, 2025 5:56:44 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:56:45 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:26:4'
+out. 31, 2025 5:56:45 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:56:45 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 26 (sent by peer 4)
+out. 31, 2025 5:56:45 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 5:56:46 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 27 (peer 0 is lowest alive)
+out. 31, 2025 5:56:46 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8084
+out. 31, 2025 5:56:46 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8084
+out. 31, 2025 5:56:46 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:56:47 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:27:4'
+out. 31, 2025 5:56:47 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:56:47 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 27 (sent by peer 4)
+out. 31, 2025 5:56:47 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 5:56:47 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 28 (peer 0 is lowest alive)
+out. 31, 2025 5:56:47 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8084
+out. 31, 2025 5:56:47 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8084
+out. 31, 2025 5:56:47 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:56:48 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:28:4'
+out. 31, 2025 5:56:48 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:56:48 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 28 (sent by peer 4)
+out. 31, 2025 5:56:48 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 5:56:49 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 29 (peer 0 is lowest alive)
+out. 31, 2025 5:56:49 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8084
+out. 31, 2025 5:56:49 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8084
+out. 31, 2025 5:56:49 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:56:50 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:29:4'
+out. 31, 2025 5:56:50 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:56:50 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 29 (sent by peer 4)
+out. 31, 2025 5:56:50 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 5:56:50 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 30 (peer 0 is lowest alive)
+out. 31, 2025 5:56:50 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8084
+out. 31, 2025 5:56:50 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8084
+out. 31, 2025 5:56:50 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:56:51 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:30:4'
+out. 31, 2025 5:56:51 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:56:51 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 30 (sent by peer 4)
+out. 31, 2025 5:56:51 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 5:56:52 DA TARDE ds.assignment.tring.Peer lambda$startRequestGenerator$3
+INFO: Generated request: add:61.697873531864786:91.14558267329903 (queue size: 1)
+out. 31, 2025 5:56:52 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 31 (peer 0 is lowest alive)
+out. 31, 2025 5:56:52 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8084
+out. 31, 2025 5:56:52 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8084
+out. 31, 2025 5:56:52 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:56:53 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:31:4'
+out. 31, 2025 5:56:53 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:56:53 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 31 (sent by peer 4)
+out. 31, 2025 5:56:53 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Processing 1 requests
+out. 31, 2025 5:56:53 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Sending to server: add:61.697873531864786:91.14558267329903
+out. 31, 2025 5:56:53 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Received from server: 152.84345620516382
+out. 31, 2025 5:56:53 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Finished processing all requests
+out. 31, 2025 5:56:53 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 32 (peer 0 is lowest alive)
+out. 31, 2025 5:56:53 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8084
+out. 31, 2025 5:56:53 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8084
+out. 31, 2025 5:56:53 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:56:54 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:32:4'
+out. 31, 2025 5:56:54 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:56:54 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 32 (sent by peer 4)
+out. 31, 2025 5:56:54 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 5:56:55 DA TARDE ds.assignment.tring.Peer lambda$startRequestGenerator$3
+INFO: Generated request: mul:22.46956640847555:31.83536336749193 (queue size: 1)
+out. 31, 2025 5:56:55 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 33 (peer 0 is lowest alive)
+out. 31, 2025 5:56:55 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8084
+out. 31, 2025 5:56:55 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8084
+out. 31, 2025 5:56:55 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:56:56 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:33:4'
+out. 31, 2025 5:56:56 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:56:56 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 33 (sent by peer 4)
+out. 31, 2025 5:56:56 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Processing 1 requests
+out. 31, 2025 5:56:56 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Sending to server: mul:22.46956640847555:31.83536336749193
+out. 31, 2025 5:56:56 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Received from server: 715.3268113238097
+out. 31, 2025 5:56:56 DA TARDE ds.assignment.tring.Peer lambda$main$5
+INFO: Peer recovered: peer 2 is back online!
+out. 31, 2025 5:56:56 DA TARDE ds.assignment.tring.Peer lambda$main$5
+INFO: Updated next peer to peer 2 (localhost:8083)
+out. 31, 2025 5:56:56 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Finished processing all requests
+out. 31, 2025 5:56:56 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 34 (peer 0 is lowest alive)
+out. 31, 2025 5:56:56 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8083
+out. 31, 2025 5:56:56 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8083
+out. 31, 2025 5:56:56 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:56:58 DA TARDE ds.assignment.tring.Peer lambda$startRequestGenerator$3
+INFO: Generated request: sub:62.64699352134164:15.761463016463484 (queue size: 1)
+out. 31, 2025 5:56:58 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:34:4'
+out. 31, 2025 5:56:58 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:56:58 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 34 (sent by peer 4)
+out. 31, 2025 5:56:58 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Processing 1 requests
+out. 31, 2025 5:56:58 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Sending to server: sub:62.64699352134164:15.761463016463484
+out. 31, 2025 5:56:58 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Received from server: 46.88553050487816
+out. 31, 2025 5:56:58 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Finished processing all requests
+out. 31, 2025 5:56:58 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 35 (peer 0 is lowest alive)
+out. 31, 2025 5:56:58 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8083
+out. 31, 2025 5:56:58 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+WARNING: Peer 2 connection attempt 1/3 failed: Ligação recusada
+out. 31, 2025 5:57:00 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+WARNING: Peer 2 connection attempt 2/3 failed: Ligação recusada
+out. 31, 2025 5:57:01 DA TARDE ds.assignment.tring.Peer lambda$main$5
+INFO: Updated next peer to peer 3 (localhost:8084)
+out. 31, 2025 5:57:02 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8084
+out. 31, 2025 5:57:02 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:57:04 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:35:4'
+out. 31, 2025 5:57:04 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:57:04 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 35 (sent by peer 4)
+out. 31, 2025 5:57:04 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 5:57:04 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 36 (peer 0 is lowest alive)
+out. 31, 2025 5:57:04 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8084
+out. 31, 2025 5:57:04 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8084
+out. 31, 2025 5:57:04 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:57:05 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:36:4'
+out. 31, 2025 5:57:05 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:57:05 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 36 (sent by peer 4)
+out. 31, 2025 5:57:05 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 5:57:06 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 37 (peer 0 is lowest alive)
+out. 31, 2025 5:57:06 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8084
+out. 31, 2025 5:57:06 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8084
+out. 31, 2025 5:57:06 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:57:07 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:37:4'
+out. 31, 2025 5:57:07 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:57:07 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 37 (sent by peer 4)
+out. 31, 2025 5:57:07 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 5:57:07 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 38 (peer 0 is lowest alive)
+out. 31, 2025 5:57:07 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8084
+out. 31, 2025 5:57:07 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8084
+out. 31, 2025 5:57:07 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:57:12 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:38:3'
+out. 31, 2025 5:57:12 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:57:12 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 38 (sent by peer 3)
+out. 31, 2025 5:57:12 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 5:57:12 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 39 (peer 0 is lowest alive)
+out. 31, 2025 5:57:12 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8084
+out. 31, 2025 5:57:12 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8084
+out. 31, 2025 5:57:12 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:57:13 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:39:3'
+out. 31, 2025 5:57:13 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:57:13 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 39 (sent by peer 3)
+out. 31, 2025 5:57:13 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 5:57:13 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 40 (peer 0 is lowest alive)
+out. 31, 2025 5:57:13 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8084
+out. 31, 2025 5:57:13 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8084
+out. 31, 2025 5:57:13 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:57:14 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:40:3'
+out. 31, 2025 5:57:14 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:57:14 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 40 (sent by peer 3)
+out. 31, 2025 5:57:14 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 5:57:14 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 41 (peer 0 is lowest alive)
+out. 31, 2025 5:57:14 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8084
+out. 31, 2025 5:57:14 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8084
+out. 31, 2025 5:57:14 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:57:15 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:41:3'
+out. 31, 2025 5:57:15 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:57:15 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 41 (sent by peer 3)
+out. 31, 2025 5:57:15 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 5:57:15 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 42 (peer 0 is lowest alive)
+out. 31, 2025 5:57:15 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8084
+out. 31, 2025 5:57:15 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8084
+out. 31, 2025 5:57:15 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:57:16 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:42:3'
+out. 31, 2025 5:57:16 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:57:16 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 42 (sent by peer 3)
+out. 31, 2025 5:57:16 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 5:57:16 DA TARDE ds.assignment.tring.Peer lambda$main$5
+INFO: Peer recovered: peer 1 is back online!
+out. 31, 2025 5:57:16 DA TARDE ds.assignment.tring.Peer lambda$main$5
+INFO: Updated next peer to peer 1 (localhost:8082)
+out. 31, 2025 5:57:16 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 43 (peer 0 is lowest alive)
+out. 31, 2025 5:57:16 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8082
+out. 31, 2025 5:57:16 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8082
+out. 31, 2025 5:57:16 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:57:19 DA TARDE ds.assignment.tring.Peer lambda$startRequestGenerator$3
+INFO: Generated request: mul:95.69884858485497:15.243531351169793 (queue size: 1)
+out. 31, 2025 5:57:21 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:43:3'
+out. 31, 2025 5:57:21 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:57:21 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 43 (sent by peer 3)
+out. 31, 2025 5:57:21 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Processing 1 requests
+out. 31, 2025 5:57:21 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Sending to server: mul:95.69884858485497:15.243531351169793
+out. 31, 2025 5:57:21 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Received from server: 1458.7883986740876
+out. 31, 2025 5:57:22 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Finished processing all requests
+out. 31, 2025 5:57:22 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 44 (peer 0 is lowest alive)
+out. 31, 2025 5:57:22 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8082
+out. 31, 2025 5:57:22 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8082
+out. 31, 2025 5:57:22 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:57:23 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:44:3'
+out. 31, 2025 5:57:23 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:57:23 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 44 (sent by peer 3)
+out. 31, 2025 5:57:23 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 5:57:23 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 45 (peer 0 is lowest alive)
+out. 31, 2025 5:57:23 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8082
+out. 31, 2025 5:57:23 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8082
+out. 31, 2025 5:57:23 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:57:24 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:45:3'
+out. 31, 2025 5:57:24 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:57:24 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 45 (sent by peer 3)
+out. 31, 2025 5:57:24 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 5:57:25 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 46 (peer 0 is lowest alive)
+out. 31, 2025 5:57:25 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8082
+out. 31, 2025 5:57:25 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8082
+out. 31, 2025 5:57:25 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:57:26 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:46:3'
+out. 31, 2025 5:57:26 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:57:26 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 46 (sent by peer 3)
+out. 31, 2025 5:57:26 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 5:57:26 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 47 (peer 0 is lowest alive)
+out. 31, 2025 5:57:26 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8082
+out. 31, 2025 5:57:26 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8082
+out. 31, 2025 5:57:26 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:57:27 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:47:3'
+out. 31, 2025 5:57:27 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:57:27 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 47 (sent by peer 3)
+out. 31, 2025 5:57:27 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 5:57:28 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 48 (peer 0 is lowest alive)
+out. 31, 2025 5:57:28 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8082
+out. 31, 2025 5:57:28 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8082
+out. 31, 2025 5:57:28 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:57:29 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:48:3'
+out. 31, 2025 5:57:29 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:57:29 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 48 (sent by peer 3)
+out. 31, 2025 5:57:29 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 5:57:29 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 49 (peer 0 is lowest alive)
+out. 31, 2025 5:57:29 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8082
+out. 31, 2025 5:57:29 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8082
+out. 31, 2025 5:57:29 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:57:30 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:49:3'
+out. 31, 2025 5:57:30 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:57:30 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 49 (sent by peer 3)
+out. 31, 2025 5:57:30 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 5:57:31 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 50 (peer 0 is lowest alive)
+out. 31, 2025 5:57:31 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8082
+out. 31, 2025 5:57:31 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8082
+out. 31, 2025 5:57:31 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:57:32 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:50:3'
+out. 31, 2025 5:57:32 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:57:32 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 50 (sent by peer 3)
+out. 31, 2025 5:57:32 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 5:57:32 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 51 (peer 0 is lowest alive)
+out. 31, 2025 5:57:32 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8082
+out. 31, 2025 5:57:32 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8082
+out. 31, 2025 5:57:32 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:57:34 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:51:3'
+out. 31, 2025 5:57:34 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:57:34 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 51 (sent by peer 3)
+out. 31, 2025 5:57:34 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 5:57:34 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 52 (peer 0 is lowest alive)
+out. 31, 2025 5:57:34 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8082
+out. 31, 2025 5:57:34 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8082
+out. 31, 2025 5:57:34 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:57:36 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:52:3'
+out. 31, 2025 5:57:36 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:57:36 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 52 (sent by peer 3)
+out. 31, 2025 5:57:36 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 5:57:36 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 53 (peer 0 is lowest alive)
+out. 31, 2025 5:57:36 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8082
+out. 31, 2025 5:57:36 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8082
+out. 31, 2025 5:57:36 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:57:38 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:53:3'
+out. 31, 2025 5:57:38 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:57:38 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 53 (sent by peer 3)
+out. 31, 2025 5:57:38 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 5:57:38 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 54 (peer 0 is lowest alive)
+out. 31, 2025 5:57:38 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8082
+out. 31, 2025 5:57:38 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8082
+out. 31, 2025 5:57:38 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:57:40 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:54:4'
+out. 31, 2025 5:57:40 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:57:40 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 54 (sent by peer 4)
+out. 31, 2025 5:57:40 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 5:57:41 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 55 (peer 0 is lowest alive)
+out. 31, 2025 5:57:41 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8082
+out. 31, 2025 5:57:41 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8082
+out. 31, 2025 5:57:41 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:57:43 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:55:4'
+out. 31, 2025 5:57:43 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:57:43 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 55 (sent by peer 4)
+out. 31, 2025 5:57:43 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 5:57:43 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 56 (peer 0 is lowest alive)
+out. 31, 2025 5:57:43 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8082
+out. 31, 2025 5:57:43 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8082
+out. 31, 2025 5:57:43 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:57:46 DA TARDE ds.assignment.tring.Peer lambda$startRequestGenerator$3
+INFO: Generated request: add:76.2879222082238:27.08108135969872 (queue size: 1)
+out. 31, 2025 5:57:46 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:56:4'
+out. 31, 2025 5:57:46 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:57:46 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 56 (sent by peer 4)
+out. 31, 2025 5:57:46 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Processing 1 requests
+out. 31, 2025 5:57:46 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Sending to server: add:76.2879222082238:27.08108135969872
+out. 31, 2025 5:57:46 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Received from server: 103.36900356792253
+out. 31, 2025 5:57:46 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Finished processing all requests
+out. 31, 2025 5:57:46 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 57 (peer 0 is lowest alive)
+out. 31, 2025 5:57:46 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8082
+out. 31, 2025 5:57:46 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8082
+out. 31, 2025 5:57:46 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:57:49 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:57:4'
+out. 31, 2025 5:57:49 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:57:49 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 57 (sent by peer 4)
+out. 31, 2025 5:57:49 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 5:57:49 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 58 (peer 0 is lowest alive)
+out. 31, 2025 5:57:49 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8082
+out. 31, 2025 5:57:49 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8082
+out. 31, 2025 5:57:49 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:57:51 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:58:4'
+out. 31, 2025 5:57:51 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:57:51 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 58 (sent by peer 4)
+out. 31, 2025 5:57:51 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 5:57:52 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 59 (peer 0 is lowest alive)
+out. 31, 2025 5:57:52 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8082
+out. 31, 2025 5:57:52 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8082
+out. 31, 2025 5:57:52 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:57:54 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:59:4'
+out. 31, 2025 5:57:54 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:57:54 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 59 (sent by peer 4)
+out. 31, 2025 5:57:54 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 5:57:55 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 60 (peer 0 is lowest alive)
+out. 31, 2025 5:57:55 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8082
+out. 31, 2025 5:57:55 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8082
+out. 31, 2025 5:57:55 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 5:57:57 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:60:4'
+out. 31, 2025 5:57:57 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 5:57:57 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 60 (sent by peer 4)
+out. 31, 2025 5:57:57 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 5:57:57 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 61 (peer 0 is lowest alive)
+out. 31, 2025 5:57:57 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8082
+out. 31, 2025 5:57:57 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8082
+out. 31, 2025 5:57:57 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully

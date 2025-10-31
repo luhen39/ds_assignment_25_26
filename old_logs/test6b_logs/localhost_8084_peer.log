@@ -1,0 +1,210 @@
+out. 31, 2025 2:11:30 DA TARDE ds.assignment.tring.Peer loadRingConfiguration
+INFO: Loading ring configuration from peers.config
+out. 31, 2025 2:11:30 DA TARDE ds.assignment.tring.Peer loadRingConfiguration
+INFO: Loaded peer 0: localhost:8081
+out. 31, 2025 2:11:30 DA TARDE ds.assignment.tring.Peer loadRingConfiguration
+INFO: Loaded peer 1: localhost:8082
+out. 31, 2025 2:11:30 DA TARDE ds.assignment.tring.Peer loadRingConfiguration
+INFO: Loaded peer 2: localhost:8083
+out. 31, 2025 2:11:30 DA TARDE ds.assignment.tring.Peer loadRingConfiguration
+INFO: Loaded peer 3: localhost:8084
+out. 31, 2025 2:11:30 DA TARDE ds.assignment.tring.Peer loadRingConfiguration
+INFO: Loaded peer 4: localhost:8085
+out. 31, 2025 2:11:30 DA TARDE ds.assignment.tring.Peer loadRingConfiguration
+INFO: Ring configuration loaded: 5 peers
+out. 31, 2025 2:11:30 DA TARDE ds.assignment.tring.Peer$TokenServer run
+INFO: Token server started on localhost:8084
+out. 31, 2025 2:11:31 DA TARDE ds.assignment.tring.Peer lambda$startRequestGenerator$3
+INFO: Starting request generator (Poisson λ=4 per minute)
+out. 31, 2025 2:11:31 DA TARDE ds.assignment.tring.Peer main
+INFO: Monitoring activated immediately at startup
+out. 31, 2025 2:11:31 DA TARDE ds.assignment.tring.Peer lambda$startTokenMonitor$0
+INFO: Token monitor ready, activates after first token
+out. 31, 2025 2:11:35 DA TARDE ds.assignment.tring.Peer lambda$startRequestGenerator$3
+INFO: Generated request: sub:64.74757337768476:57.76584403775051 (queue size: 1)
+out. 31, 2025 2:11:37 DA TARDE ds.assignment.tring.Peer lambda$startRequestGenerator$3
+INFO: Generated request: mul:96.54865087636826:99.51132832076733 (queue size: 2)
+out. 31, 2025 2:12:03 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:1:2'
+out. 31, 2025 2:12:03 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 2:12:03 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 1 (sent by peer 2)
+out. 31, 2025 2:12:03 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Processing 2 requests
+out. 31, 2025 2:12:03 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Sending to server: sub:64.74757337768476:57.76584403775051
+out. 31, 2025 2:12:03 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Received from server: 6.9817293399342475
+out. 31, 2025 2:12:03 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Sending to server: mul:96.54865087636826:99.51132832076733
+out. 31, 2025 2:12:03 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Received from server: 9607.684496285423
+out. 31, 2025 2:12:04 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Finished processing all requests
+out. 31, 2025 2:12:04 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8085
+out. 31, 2025 2:12:04 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8085
+out. 31, 2025 2:12:04 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 2:12:06 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:2:2'
+out. 31, 2025 2:12:06 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 2:12:06 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 2 (sent by peer 2)
+out. 31, 2025 2:12:06 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 2:12:06 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8085
+out. 31, 2025 2:12:06 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8085
+out. 31, 2025 2:12:06 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 2:12:08 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:3:2'
+out. 31, 2025 2:12:08 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 2:12:08 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 3 (sent by peer 2)
+out. 31, 2025 2:12:08 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 2:12:08 DA TARDE ds.assignment.tring.Peer lambda$startRequestGenerator$3
+INFO: Generated request: div:49.3540596287233:48.70254856275686 (queue size: 1)
+out. 31, 2025 2:12:09 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8085
+out. 31, 2025 2:12:09 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8085
+out. 31, 2025 2:12:09 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 2:12:14 DA TARDE ds.assignment.tring.Peer lambda$startRequestGenerator$3
+INFO: Generated request: div:8.241747876173001:35.112634114146246 (queue size: 2)
+out. 31, 2025 2:12:53 DA TARDE ds.assignment.tring.Peer lambda$startRequestGenerator$3
+INFO: Generated request: add:39.33807526515366:30.276158853772404 (queue size: 3)
+out. 31, 2025 2:12:55 DA TARDE ds.assignment.tring.Peer lambda$startRequestGenerator$3
+INFO: Generated request: sub:62.89556561317966:58.43768708393442 (queue size: 4)
+out. 31, 2025 2:13:09 DA TARDE ds.assignment.tring.Peer lambda$startRequestGenerator$3
+INFO: Generated request: add:49.99726242343052:14.317770560692134 (queue size: 5)
+out. 31, 2025 2:13:12 DA TARDE ds.assignment.tring.Peer lambda$startRequestGenerator$3
+INFO: Generated request: div:7.308197915988801:57.623829685578166 (queue size: 6)
+out. 31, 2025 2:13:19 DA TARDE ds.assignment.tring.Peer lambda$startRequestGenerator$3
+INFO: Generated request: add:88.82881601320439:42.84383198742928 (queue size: 7)
+out. 31, 2025 2:13:33 DA TARDE ds.assignment.tring.Peer lambda$startRequestGenerator$3
+INFO: Generated request: sub:81.57327738264297:59.032727691331445 (queue size: 8)
+out. 31, 2025 2:13:39 DA TARDE ds.assignment.tring.Peer lambda$startTokenMonitor$0
+SEVERE: Token timeout detected, last seen 90s ago
+out. 31, 2025 2:13:41 DA TARDE ds.assignment.tring.Peer lambda$startRequestGenerator$3
+INFO: Generated request: mul:15.483553678862572:75.13324783039005 (queue size: 9)
+out. 31, 2025 2:13:41 DA TARDE ds.assignment.tring.Peer lambda$startTokenMonitor$0
+SEVERE: Token timeout detected, last seen 92s ago
+out. 31, 2025 2:13:43 DA TARDE ds.assignment.tring.Peer lambda$startTokenMonitor$0
+SEVERE: Token timeout detected, last seen 94s ago
+out. 31, 2025 2:13:45 DA TARDE ds.assignment.tring.Peer lambda$startTokenMonitor$0
+SEVERE: Token timeout detected, last seen 96s ago
+out. 31, 2025 2:13:47 DA TARDE ds.assignment.tring.Peer lambda$startTokenMonitor$0
+SEVERE: Token timeout detected, last seen 98s ago
+out. 31, 2025 2:13:49 DA TARDE ds.assignment.tring.Peer lambda$startTokenMonitor$0
+SEVERE: Token timeout detected, last seen 100s ago
+out. 31, 2025 2:13:50 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:1:2'
+out. 31, 2025 2:13:50 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 2:13:50 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 1 (sent by peer 2)
+out. 31, 2025 2:13:50 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Processing 9 requests
+out. 31, 2025 2:13:50 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Sending to server: div:49.3540596287233:48.70254856275686
+out. 31, 2025 2:13:50 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Received from server: 1.013377350573901
+out. 31, 2025 2:13:51 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Sending to server: div:8.241747876173001:35.112634114146246
+out. 31, 2025 2:13:51 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Received from server: 0.23472314407914358
+out. 31, 2025 2:13:51 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Sending to server: add:39.33807526515366:30.276158853772404
+out. 31, 2025 2:13:51 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Received from server: 69.61423411892606
+out. 31, 2025 2:13:52 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Sending to server: sub:62.89556561317966:58.43768708393442
+out. 31, 2025 2:13:52 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Received from server: 4.457878529245242
+out. 31, 2025 2:13:52 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Sending to server: add:49.99726242343052:14.317770560692134
+out. 31, 2025 2:13:52 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Received from server: 64.31503298412265
+out. 31, 2025 2:13:53 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Sending to server: div:7.308197915988801:57.623829685578166
+out. 31, 2025 2:13:53 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Received from server: 0.12682596689365588
+out. 31, 2025 2:13:53 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Sending to server: add:88.82881601320439:42.84383198742928
+out. 31, 2025 2:13:53 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Received from server: 131.67264800063367
+out. 31, 2025 2:13:54 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Sending to server: sub:81.57327738264297:59.032727691331445
+out. 31, 2025 2:13:54 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Received from server: 22.540549691311526
+out. 31, 2025 2:13:54 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Sending to server: mul:15.483553678862572:75.13324783039005
+out. 31, 2025 2:13:54 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Received from server: 1163.3296758491292
+out. 31, 2025 2:13:55 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Finished processing all requests
+out. 31, 2025 2:13:55 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8085
+out. 31, 2025 2:13:55 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8085
+out. 31, 2025 2:13:55 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 2:14:01 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:2:2'
+out. 31, 2025 2:14:01 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 2:14:01 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 2 (sent by peer 2)
+out. 31, 2025 2:14:01 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 2:14:02 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8085
+out. 31, 2025 2:14:02 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8085
+out. 31, 2025 2:14:02 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 2:14:04 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:3:2'
+out. 31, 2025 2:14:04 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 2:14:04 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 3 (sent by peer 2)
+out. 31, 2025 2:14:04 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+out. 31, 2025 2:14:04 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8085
+out. 31, 2025 2:14:04 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8085
+out. 31, 2025 2:14:04 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
+out. 31, 2025 2:14:05 DA TARDE ds.assignment.tring.Peer lambda$startRequestGenerator$3
+INFO: Generated request: mul:36.13018718424469:45.74066379562653 (queue size: 1)
+out. 31, 2025 2:14:06 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:ROUND:4:2'
+out. 31, 2025 2:14:06 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 2:14:06 DA TARDE ds.assignment.tring.Peer$TokenConnection run
+INFO: Token is on round 4 (sent by peer 2)
+out. 31, 2025 2:14:06 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Processing 1 requests
+out. 31, 2025 2:14:06 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Sending to server: mul:36.13018718424469:45.74066379562653
+out. 31, 2025 2:14:06 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Received from server: 1652.6187448675907
+out. 31, 2025 2:14:06 DA TARDE ds.assignment.tring.Peer processAllRequests
+INFO: Finished processing all requests
+out. 31, 2025 2:14:06 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8085
+out. 31, 2025 2:14:06 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8085
+out. 31, 2025 2:14:06 DA TARDE ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
