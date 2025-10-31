@@ -1,0 +1,44 @@
+out. 31, 2025 12:16:31 DA MANHÃ ds.assignment.tring.Peer loadRingConfiguration
+INFO: Loading ring configuration from peers.config
+out. 31, 2025 12:16:31 DA MANHÃ ds.assignment.tring.Peer loadRingConfiguration
+INFO: Loaded peer 0: localhost:8081
+out. 31, 2025 12:16:31 DA MANHÃ ds.assignment.tring.Peer loadRingConfiguration
+INFO: Loaded peer 1: localhost:8082
+out. 31, 2025 12:16:31 DA MANHÃ ds.assignment.tring.Peer loadRingConfiguration
+INFO: Loaded peer 2: localhost:8083
+out. 31, 2025 12:16:31 DA MANHÃ ds.assignment.tring.Peer loadRingConfiguration
+INFO: Loaded peer 3: localhost:8084
+out. 31, 2025 12:16:31 DA MANHÃ ds.assignment.tring.Peer loadRingConfiguration
+INFO: Loaded peer 4: localhost:8085
+out. 31, 2025 12:16:31 DA MANHÃ ds.assignment.tring.Peer loadRingConfiguration
+INFO: Ring configuration loaded: 5 peers
+out. 31, 2025 12:16:31 DA MANHÃ ds.assignment.tring.Peer$TokenServer run
+INFO: Token server started on localhost:8081
+out. 31, 2025 12:16:32 DA MANHÃ ds.assignment.tring.Peer lambda$startRequestGenerator$3
+INFO: Starting request generator (Poisson λ=4 per minute)
+out. 31, 2025 12:16:32 DA MANHÃ ds.assignment.tring.Peer main
+INFO: Monitoring activated immediately at startup
+out. 31, 2025 12:16:32 DA MANHÃ ds.assignment.tring.Peer lambda$startTokenMonitor$0
+INFO: Token monitor ready, activates after first token
+out. 31, 2025 12:16:46 DA MANHÃ ds.assignment.tring.Peer lambda$startRequestGenerator$3
+INFO: Generated request: div:73.70750901508856:11.634330871020147 (queue size: 1)
+out. 31, 2025 12:16:49 DA MANHÃ ds.assignment.tring.Peer lambda$startRequestGenerator$3
+INFO: Generated request: div:90.47490607707648:21.189096980243026 (queue size: 2)
+out. 31, 2025 12:16:56 DA MANHÃ ds.assignment.tring.Peer lambda$startRequestGenerator$3
+INFO: Generated request: mul:13.172128595026233:90.19662861527006 (queue size: 3)
+out. 31, 2025 12:17:00 DA MANHÃ ds.assignment.tring.Peer lambda$startRequestGenerator$3
+INFO: Generated request: sub:44.771066963441896:84.59932679809718 (queue size: 4)
+out. 31, 2025 12:17:01 DA MANHÃ ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:INITIAL'
+out. 31, 2025 12:17:01 DA MANHÃ ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+out. 31, 2025 12:17:01 DA MANHÃ ds.assignment.tring.Peer processAllRequests
+INFO: Processing 4 requests
+out. 31, 2025 12:17:01 DA MANHÃ ds.assignment.tring.Peer processAllRequests
+INFO: Sending to server: div:73.70750901508856:11.634330871020147
+out. 31, 2025 12:17:01 DA MANHÃ ds.assignment.tring.Peer processAllRequests
+INFO: Received from server: 6.335345782427931
+out. 31, 2025 12:17:02 DA MANHÃ ds.assignment.tring.Peer processAllRequests
+INFO: Sending to server: div:90.47490607707648:21.189096980243026
+out. 31, 2025 12:17:02 DA MANHÃ ds.assignment.tring.Peer processAllRequests
+INFO: Received from server: 4.269880220069614
