@@ -1,0 +1,4 @@
+Test 10: Chaos Test
+Objective: Random failures/recoveries.
+Steps: Kill/restart peers randomly, observe adaptation.
+Expected: System handles chaos, token never lost.

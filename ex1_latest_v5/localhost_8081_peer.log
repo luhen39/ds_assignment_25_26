@@ -1,0 +1,36 @@
+nov. 13, 2025 11:35:06 DA MANHÃ ds.assignment.tring.Peer loadRingConfiguration
+INFO: Loading ring configuration from peers.config
+nov. 13, 2025 11:35:06 DA MANHÃ ds.assignment.tring.Peer loadRingConfiguration
+INFO: Loaded peer 0: localhost:8081
+nov. 13, 2025 11:35:06 DA MANHÃ ds.assignment.tring.Peer loadRingConfiguration
+INFO: Loaded peer 1: localhost:8082
+nov. 13, 2025 11:35:06 DA MANHÃ ds.assignment.tring.Peer loadRingConfiguration
+INFO: Loaded peer 2: localhost:8083
+nov. 13, 2025 11:35:06 DA MANHÃ ds.assignment.tring.Peer loadRingConfiguration
+INFO: Loaded peer 3: localhost:8084
+nov. 13, 2025 11:35:06 DA MANHÃ ds.assignment.tring.Peer loadRingConfiguration
+INFO: Loaded peer 4: localhost:8085
+nov. 13, 2025 11:35:06 DA MANHÃ ds.assignment.tring.Peer loadRingConfiguration
+INFO: Ring configuration loaded: 5 peers
+nov. 13, 2025 11:35:06 DA MANHÃ ds.assignment.tring.Peer$TokenServer run
+INFO: Token server started on localhost:8081
+nov. 13, 2025 11:35:07 DA MANHÃ ds.assignment.tring.Peer lambda$startRequestGenerator$3
+INFO: Starting request generator (Poisson λ=4 per minute)
+nov. 13, 2025 11:35:07 DA MANHÃ ds.assignment.tring.Peer main
+INFO: Monitoring activated immediately at startup
+nov. 13, 2025 11:35:07 DA MANHÃ ds.assignment.tring.Peer lambda$startTokenMonitor$0
+INFO: Token monitor ready, activates after first token
+nov. 13, 2025 11:35:36 DA MANHÃ ds.assignment.tring.Peer$TokenConnection run
+INFO: Received token from 127.0.0.1: 'TOKEN:INITIAL'
+nov. 13, 2025 11:35:36 DA MANHÃ ds.assignment.tring.Peer$TokenConnection run
+INFO: Sent ACK to 127.0.0.1
+nov. 13, 2025 11:35:36 DA MANHÃ ds.assignment.tring.Peer processAllRequests
+INFO: No requests in queue -> forwarding token immediately
+nov. 13, 2025 11:35:36 DA MANHÃ ds.assignment.tring.Peer forwardTokenWithAck
+INFO: STARTING NEW ROUND: 1 (peer 0 is lowest alive)
+nov. 13, 2025 11:35:36 DA MANHÃ ds.assignment.tring.Peer forwardTokenWithAck
+INFO: FORWARDING TOKEN to localhost:8082
+nov. 13, 2025 11:35:36 DA MANHÃ ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Sent token to localhost:8082
+nov. 13, 2025 11:35:36 DA MANHÃ ds.assignment.tring.Peer forwardTokenWithAck
+INFO: Received ACK -> token forwarded successfully
