@@ -313,3 +313,5 @@ Luís Ganço - (up202004196) - MERSI
 Faculty of Sciences, University of Porto
 
 ---
+
+Final Grade: 20/20
